@@ -54,7 +54,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Pancake home page1">
+        <StyledLink to={href} aria-label="Pancake home page">
           {innerLogo}
         </StyledLink>
       )}
